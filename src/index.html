@@ -17,6 +17,26 @@
   <!-- add to homescreen for ios -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <!-- js for map -->
+  <script type="text/javascript" src="assets/js/location.js"></script>
+  <script>
+   
+
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else { 
+        console.log("Geolocation is not supported by this browser.");
+      }
+    }
+
+    function showPosition(position) {
+      console.log("Latitude: " + position.coords.latitude + 
+      "\nLongitude: " + position.coords.longitude);
+    }
+  </script> 
+
 </head>
 
 <body>
