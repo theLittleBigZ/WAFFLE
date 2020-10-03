@@ -1,0 +1,7 @@
+{
+  "name": "WAFFLE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
