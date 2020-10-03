@@ -10,20 +10,20 @@ import { StatusBar } from "@ionic-native/status-bar/ngx";
 	styleUrls: ["app.component.scss"],
 })
 export class AppComponent implements OnInit {
-  public selectedIndex = 0;
-  public appPages = [
-    {
-      title: 'Landing',
-      url: '/folder/landing',
-      icon: 'mail'
-    },
-    {
-      title: 'Map',
-      url: '/folder/Map',
-      icon: 'paper-plane'
-    }
-  ];
-  public labels = [];
+	public selectedIndex = 0;
+	public appPages = [
+		{
+			title: 'Landing',
+			url: '/folder/landing',
+			icon: 'home'
+		},
+		{
+			title: 'Map',
+			url: '/folder/Map',
+			icon: 'locate'
+		}
+	];
+	public labels = [];
 
 	constructor(
 		private platform: Platform,
