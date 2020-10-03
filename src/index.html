@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>WAFFLE</title>
+  <title>Parachute</title>
 
   <base href="/" />
 
@@ -13,7 +13,7 @@
   <meta name="format-detection" content="telephone=no" />
   <meta name="msapplication-tap-highlight" content="no" />
 
-  <link rel="icon" type="image/png" href="assets/icon/favicon.jpg" />
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
 
   <!-- add to homescreen for ios -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -22,21 +22,21 @@
   <!-- js for map -->
   <script type="text/javascript" src="assets/js/location.js"></script>
   <script>
-   
+
 
     function getLocation() {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
-      } else { 
+      } else {
         console.log("Geolocation is not supported by this browser.");
       }
     }
 
     function showPosition(position) {
-      console.log("Latitude: " + position.coords.latitude + 
-      "\nLongitude: " + position.coords.longitude);
+      console.log("Latitude: " + position.coords.latitude +
+        "\nLongitude: " + position.coords.longitude);
     }
-  </script> 
+  </script>
 
 </head>
 
