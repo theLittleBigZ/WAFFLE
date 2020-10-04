@@ -1,3 +1,7 @@
+* {
+  overflow: hidden !important;
+}
+
 ion-menu-button {
   color: var(--ion-color-primary);
 }
@@ -26,3 +30,4 @@ ion-menu-button {
 #container a {
   text-decoration: none;
 }
+
